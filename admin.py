@@ -5,4 +5,4 @@ from .models import registertable
 class showuser(admin.ModelAdmin):
     list_display = ["name","email","phone","password"]
 
-admin.site.register(registertable,showuser)
+admin.site.register(registertable,showuser) 
